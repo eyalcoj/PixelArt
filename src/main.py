@@ -18,6 +18,7 @@ class run:
                            Constants.INITIALLY_WINDOW_Y_CORDS,
                            Constants.WIDTH_WINDOW,
                            Constants.HEIGHT_WINDOW)
+        window.setFixedSize(Constants.WIDTH_WINDOW, Constants.HEIGHT_WINDOW)
         user_data = User_Data()
         self.buttons = []
         for i in range(3):
@@ -25,7 +26,6 @@ class run:
             self.buttons.append(All_Buttons(setup_change_buttons(window, user_data)))
             self.buttons[i].remove_buttons()
         self.buttons[user_data.get_current_pic() - 1].add_buttons()
-        print(len(self.buttons))
         switch_pic_row = Switch_Pic_Row(window, user_data, self.buttons)
         window.show()
         sys.exit(app.exec_())
