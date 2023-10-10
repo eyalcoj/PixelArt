@@ -13,15 +13,15 @@ class Color_Chooser_Row:
 
     def crate_row(self, window: QWidget):
         self.buttons = []
-        for cel in range(len(Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic())):
+        for cel in range(len(Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic()) - 1):
             self.buttons.append(
                 Color_Chooser_Button(window, Constants.COLOR_BUTTON_SIZE * cel + (
-                        Constants.WIDTH_WINDOW - Constants.COLOR_BUTTON_SIZE * len(
-                    Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic())) / 2,
+                        Constants.WIDTH_WINDOW - Constants.COLOR_BUTTON_SIZE * (len(
+                    Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic())-1)) / 2,
                                      Constants.PICS_DATA.get(
                                          self.__user_data.get_current_pic()).get_drawing_bard_height(),
                                      Constants.COLOR_BUTTON_SIZE, Constants.COLOR_BUTTON_SIZE,
-                                     (cel + 1),
+                                     cel + 1,
                                      self.__user_data))
 
     def remove_color_chooser_row(self):

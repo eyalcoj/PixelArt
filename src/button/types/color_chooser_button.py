@@ -13,7 +13,7 @@ class Color_Chooser_Button(Button):
         self.__user_data = user_data
         self.__number = number
         self.get_button().setStyleSheet(
-            f'background-color: {Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic().get(self.__number)}; color: black;')
+            f'background-color: {Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic().get(self.__number)}; color: #36393e;')
 
     def on_button_click(self):
         self.__user_data.set_number(self.__number)

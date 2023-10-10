@@ -19,8 +19,8 @@ class Board_Button(Button):
             self.set_to_color()
 
     def set_to_default(self):
-        self.get_button().setStyleSheet(f'background-color: white; color: black;')
+        self.get_button().setStyleSheet(f'background-color: white; color: #36393e;')
 
     def set_to_color(self):
         self.get_button().setStyleSheet(
-            f'background-color: {Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic().get(self.__number)}; color: black;')
+            f'background-color: {Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic().get(self.__number)}; color: #36393e;')
