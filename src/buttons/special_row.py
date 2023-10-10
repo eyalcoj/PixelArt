@@ -1,9 +1,9 @@
 from PyQt5.QtWidgets import QWidget
 
-from NEW.buttons.drawing_board import Drawing_Board
-from NEW.button.types.special_buttons import Clear_All_Button, Color_All_Button
-from NEW.constants import Constants
-from NEW.user_data import User_Data
+from src.buttons.drawing_board import Drawing_Board
+from src.button.types.special_buttons import Clear_All_Button, Color_All_Button
+from src.constants import Constants
+from src.user_data import User_Data
 
 
 class Special_Row:

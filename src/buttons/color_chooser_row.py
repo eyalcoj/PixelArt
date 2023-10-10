@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import QWidget
 
-from NEW.button.types.color_chooser_button import Color_Chooser_Button
-from NEW.constants import Constants
-from NEW.user_data import User_Data
+from src.button.types.color_chooser_button import Color_Chooser_Button
+from src.constants import Constants
+from src.user_data import User_Data
 
 
 class Color_Chooser_Row:

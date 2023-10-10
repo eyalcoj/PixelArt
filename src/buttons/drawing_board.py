@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import QWidget
 
-from NEW.button.types.board_button import Board_Button
-from NEW.constants import Constants
-from NEW.user_data import User_Data
+from src.button.types.board_button import Board_Button
+from src.constants import Constants
+from src.user_data import User_Data
 
 
 class Drawing_Board:

@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QWidget
 
-from NEW.button.button import Button
-from NEW.user_data import User_Data
+from src.button.button import Button
+from src.user_data import User_Data
 
 
 class Switch_Pic_Button(Button):

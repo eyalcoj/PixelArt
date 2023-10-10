@@ -1,10 +1,10 @@
 from PyQt5.QtWidgets import QWidget
 
-from NEW.buttons.color_chooser_row import Color_Chooser_Row
-from NEW.buttons.drawing_board import Drawing_Board
-from NEW.buttons.special_row import Special_Row
-from NEW.buttons.switch_pic_row import Switch_Pic_Row
-from NEW.user_data import User_Data
+from src.buttons.color_chooser_row import Color_Chooser_Row
+from src.buttons.drawing_board import Drawing_Board
+from src.buttons.special_row import Special_Row
+from src.buttons.switch_pic_row import Switch_Pic_Row
+from src.user_data import User_Data
 
 
 def setup_change_buttons(window: QWidget, user_data: User_Data):

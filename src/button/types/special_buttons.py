@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QWidget
 
-from NEW.buttons.drawing_board import Drawing_Board
-from NEW.button.button import Button
+from src.buttons.drawing_board import Drawing_Board
+from src.button.button import Button
 
 
 class Clear_All_Button(Button):

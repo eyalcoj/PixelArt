@@ -1,4 +1,4 @@
-from NEW.pic_data import Pic_Data
+from src.pic_data import Pic_Data
 
 
 class Constants:

@@ -2,11 +2,11 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QWidget
 
-from NEW.buttons.all_buttons import All_Buttons
-from NEW.buttons.switch_pic_row import Switch_Pic_Row
-from NEW.constants import Constants
-from NEW.setup import setup_change_buttons
-from NEW.user_data import User_Data
+from src.buttons.all_buttons import All_Buttons
+from src.buttons.switch_pic_row import Switch_Pic_Row
+from src.constants import Constants
+from src.setup import setup_change_buttons
+from src.user_data import User_Data
 
 
 class run:

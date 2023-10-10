@@ -1,6 +1,6 @@
-from NEW.buttons.color_chooser_row import Color_Chooser_Row
-from NEW.buttons.drawing_board import Drawing_Board
-from NEW.buttons.special_row import Special_Row
+from src.buttons.color_chooser_row import Color_Chooser_Row
+from src.buttons.drawing_board import Drawing_Board
+from src.buttons.special_row import Special_Row
 
 
 class All_Buttons:
