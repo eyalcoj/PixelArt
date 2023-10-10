@@ -148,6 +148,5 @@ class Constants:
         3: Pic_Data(__THE_PIC3, __NUMBER_COLOR_PIC3, WIDTH_WINDOW, COLOR_BUTTON_LOWEST_LIMIT)
     }
 
-
-# color buttons
+    # color buttons
     COLOR_BUTTON_SIZE = 50

@@ -20,4 +20,3 @@ class Switch_Pic_Row:
                                   Constants.HEIGHT_WINDOW - Constants.SWITCH_PIC_BUTTON_HEIGHT,
                                   Constants.SPECIAL_BUTTON_WIDTH, Constants.SPECIAL_BUTTON_HEIGHT, f"pic {cel}", cel,
                                   self.__user_data, self.__buttons))
-

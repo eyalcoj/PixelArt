@@ -17,7 +17,7 @@ class Drawing_Board:
             self.__buttons.append([])
             for col in range(Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_pix_width_pic()):
                 print(Constants.PICS_DATA.get(
-                        self.__user_data.get_current_pic()).get_button_size())
+                    self.__user_data.get_current_pic()).get_button_size())
                 self.__buttons[row].append(
                     Board_Button(window, Constants.PICS_DATA.get(
                         self.__user_data.get_current_pic()).get_button_size() * row + Constants.PICS_DATA.get(

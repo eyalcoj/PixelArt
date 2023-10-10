@@ -32,4 +32,4 @@ class run:
 
 
 if __name__ == "__main__":
-    app_instance = run("Your Window Title")
+    app_instance = run("The best Pixel art (Ben & Eyal)")

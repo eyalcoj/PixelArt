@@ -5,7 +5,6 @@ from src.buttons.special_row import Special_Row
 
 class All_Buttons:
     def __init__(self, all_buttons: tuple):
-        # drawing_board, color_chooser_row, special_row
         self.__drawing_board: Drawing_Board = all_buttons[0]
         self.__color_chooser_row: Color_Chooser_Row = all_buttons[1]
         self.__special_row: Special_Row = all_buttons[2]

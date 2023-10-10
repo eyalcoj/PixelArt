@@ -9,7 +9,7 @@ class Pic_Data:
         self.__pix_height_pic = len(the_pic[0])
 
         self.__button_size = math.floor(min(width_window / self.__pix_height_pic,
-                                 color_button_lowest_limit / self.__pix_width_pic))
+                                            color_button_lowest_limit / self.__pix_width_pic))
 
         self.__drawing_bard_width = self.__button_size * self.__pix_height_pic
         self.__drawing_bard_height = self.__button_size * self.__pix_width_pic

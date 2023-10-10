@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QWidget
 
-from src.buttons.drawing_board import Drawing_Board
 from src.button.types.special_buttons import Clear_All_Button, Color_All_Button
+from src.buttons.drawing_board import Drawing_Board
 from src.constants import Constants
 from src.user_data import User_Data
 
@@ -35,4 +35,3 @@ class Special_Row:
     def add_special_row(self):
         self.__clear_all_button.return_button()
         self.__color_all_button.return_button()
-
