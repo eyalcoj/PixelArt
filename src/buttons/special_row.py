@@ -12,7 +12,7 @@ class Special_Row:
         self.__clear_all_button = Clear_All_Button(drawing_board, window,
                                                    (
                                                            Constants.WIDTH_WINDOW - Constants.SPECIAL_BUTTON_WIDTH * 2)
-                                                   / 2 + Constants.SPECIAL_BUTTON_WIDTH,
+                                                   // 2 + Constants.SPECIAL_BUTTON_WIDTH,
                                                    Constants.PICS_DATA.get(
                                                        self.__user_data.get_current_pic()).get_drawing_bard_height() +
                                                    Constants.SPECIAL_BUTTON_HEIGHT,
@@ -20,7 +20,7 @@ class Special_Row:
                                                    Constants.SPECIAL_BUTTON_HEIGHT,
                                                    "Clear")
         self.__color_all_button = Color_All_Button(drawing_board, window,
-                                                   (Constants.WIDTH_WINDOW - Constants.SPECIAL_BUTTON_WIDTH * 2) / 2,
+                                                   (Constants.WIDTH_WINDOW - Constants.SPECIAL_BUTTON_WIDTH * 2) // 2,
                                                    Constants.PICS_DATA.get(
                                                        self.__user_data.get_current_pic()).get_drawing_bard_height() +
                                                    Constants.SPECIAL_BUTTON_HEIGHT,

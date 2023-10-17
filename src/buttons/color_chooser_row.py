@@ -17,7 +17,7 @@ class Color_Chooser_Row:
             self.buttons.append(
                 Color_Chooser_Button(window, Constants.COLOR_BUTTON_SIZE * cel + (
                         Constants.WIDTH_WINDOW - Constants.COLOR_BUTTON_SIZE * (len(
-                    Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic()) - 1)) / 2,
+                    Constants.PICS_DATA.get(self.__user_data.get_current_pic()).get_number_color_pic()) - 1)) // 2,
                                      Constants.PICS_DATA.get(
                                          self.__user_data.get_current_pic()).get_drawing_bard_height(),
                                      Constants.COLOR_BUTTON_SIZE, Constants.COLOR_BUTTON_SIZE,

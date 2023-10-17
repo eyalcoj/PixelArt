@@ -14,7 +14,7 @@ class Pic_Data:
         self.__drawing_bard_width = self.__button_size * self.__pix_height_pic
         self.__drawing_bard_height = self.__button_size * self.__pix_width_pic
 
-        self.__drawing_bard_start_x = math.ceil((width_window - self.__drawing_bard_width)) / 2
+        self.__drawing_bard_start_x = math.ceil((width_window - self.__drawing_bard_width)) // 2
         self.__drawing_bard_start_y = 0
 
     def get_the_pic(self):

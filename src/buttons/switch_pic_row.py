@@ -16,7 +16,7 @@ class Switch_Pic_Row:
         for cel in range(1, Constants.SWITCH_PIC_BUTTON_AMOUNT + 1):
             self.buttons.append(
                 Switch_Pic_Button(window, Constants.SWITCH_PIC_BUTTON_WIDTH * (cel - 1) + (Constants.WIDTH_WINDOW -
-                                                                                           Constants.SWITCH_PIC_BUTTON_AMOUNT * Constants.SWITCH_PIC_BUTTON_WIDTH) / 2,
+                                                                                           Constants.SWITCH_PIC_BUTTON_AMOUNT * Constants.SWITCH_PIC_BUTTON_WIDTH) // 2,
                                   Constants.HEIGHT_WINDOW - Constants.SWITCH_PIC_BUTTON_HEIGHT,
                                   Constants.SPECIAL_BUTTON_WIDTH, Constants.SPECIAL_BUTTON_HEIGHT, f"pic {cel}", cel,
                                   self.__user_data, self.__buttons))
